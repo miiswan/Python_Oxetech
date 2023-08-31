@@ -1,0 +1,7 @@
+# faça um programa que, em uma função chamada somaDeTres, receba 3 parâmetros e some os 3.
+
+def soma(num1,num2,num3):
+  return num1+num2+num3
+
+a = soma(1,2,3)
+print(a)
