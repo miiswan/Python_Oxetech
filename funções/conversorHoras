@@ -1,0 +1,8 @@
+def conversorHoras(hora,minuto):
+  if hora >= 12:
+    hora = hora -12
+    turno = "P"
+    return f"{hora}:{minuto}P.M"
+  else:
+    turno = "A"
+    return f"{hora}:{minuto} A.M"
