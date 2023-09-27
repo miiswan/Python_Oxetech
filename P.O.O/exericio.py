@@ -13,5 +13,5 @@ class Aluno:
         else:
             print(f'O aluno é menor de idade.')
 
-mirella = Aluno('Mirella',18,12732152498)
+mirella = Aluno('Mirella',18,12555152498)
 print(mirella)
